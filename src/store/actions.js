@@ -7,7 +7,7 @@ export default {
         //有就++
         commit('addCount',payload.id)
       }else{
-        //如果没有加入购物车
+        //如果没有加入购物车 
         payload.count=1;
         commit('pushList',payload)
       }
